@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+section{
+    border: 2px solid black;
+    background-color: rgb(209, 205, 205);
+    padding: 10px;
+    margin: 20px;
+    
+}    
+div{
+    /* margin-right: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h3{
+    background-color: rgb(255, 155, 205);
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    width: 35%;
+}
+@media (min-width: 992px){
+    .big1, .big2, .big3{
+        float: left;
+        width: 33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .small1, .small2{
+        float: left;
+        width: 50%;
+    }
+    .small3{
+        width: 100%;
+        clear: both;
+    }
+}
+
+
